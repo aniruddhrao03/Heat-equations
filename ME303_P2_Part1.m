@@ -96,7 +96,7 @@ for k = 1:size(results,1)
 end
 
 
-% FTCS step on T (spherical) -
+% FTCS step on T (spherical) 
 function T_next = forward_step(T, alpha, r, dr, dt, T_surface)
 % One explicit step: dT/dt = α( T_rr + (2/r)T_r ), central differences
     N = numel(r);

@@ -1,9 +1,9 @@
 clear; clc; close all;
 
 %Properties
-k = 0.5;  
+k = 0.64;  
 rho = 1000;  
-c = 3000;
+c = 4180;
 alpha = k/(rho*c);
 
 %Cooking settings
